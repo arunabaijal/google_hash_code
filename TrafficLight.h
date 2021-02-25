@@ -34,16 +34,16 @@ class TrafficLight {
 		}
 };
 
-int main() {
-	// your code goes here
+// int main() {
+// 	// your code goes here
 	
-	TrafficLight t("1");
-	cout << t.get_num_of_waiting_cars() << endl;
-	t.update_queue(1);
-	cout << t.get_num_of_waiting_cars() << endl;
-	cout << t.get_current_state() << endl;
-	t.update_state(true);
-	cout << t.get_current_state() << endl;
+// 	TrafficLight t("1");
+// 	cout << t.get_num_of_waiting_cars() << endl;
+// 	t.update_queue(1);
+// 	cout << t.get_num_of_waiting_cars() << endl;
+// 	cout << t.get_current_state() << endl;
+// 	t.update_state(true);
+// 	cout << t.get_current_state() << endl;
 	
-	return 0;
-}
+// 	return 0;
+// }
